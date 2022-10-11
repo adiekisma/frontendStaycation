@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "elements/Button";
-import Fade from "react-reveal";
+import { Fade } from "react-reveal";
 
 export default function Categories({ data }) {
   return data.map((category, index1) => {
