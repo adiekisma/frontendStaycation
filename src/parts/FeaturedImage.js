@@ -4,7 +4,7 @@ import { Fade } from "react-reveal";
 export default function FeaturedImage({ data }) {
   return (
     <section className="container">
-      <div className="container-grid sm">
+      <div className="container-grid">
         {data.map((item, index) => {
           return (
             <div
